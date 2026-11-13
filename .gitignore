@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test, lint, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local data and run artifacts
+data/*.jsonl
+data/*.csv
+data/*.xlsx
+mlruns/
+mlartifacts/
+*.db
+*.sqlite
+*.log
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.agents/
